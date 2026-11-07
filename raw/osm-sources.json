@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];way[\"highway\"][\"name\"](46.145,21.28,46.205,21.36);out geom;",
+  "osm_timestamp": "2026-11-07T14:41:26Z",
+  "sha256": "12a6548d947932f5b9a7760c32e91c05a12f9b77e0b2da8243edad33dc1422fc",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "copyright_url": "https://www.openstreetmap.org/copyright",
+  "matched_record_count": 67,
+  "unmatched_record_count": 12
+}

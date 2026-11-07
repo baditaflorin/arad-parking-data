@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recons paid-parking street/area inventory",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "record_type", "name", "zone", "capacity", "latitude", "longitude", "geometry", "location_precision", "source_url", "source_text", "retrieved_at"],
+    "properties": {
+      "id": {"type": "string", "description": "Deterministic hash of zone, normalized source name and duplicate-name occurrence. Stable when those source attributes do not change."},
+      "record_type": {"const": "paid_parking_street_or_area"},
+      "name": {"type": "string", "description": "Source-listed street, segment, square or area. Not an individual parking bay."},
+      "address": {"type": "string", "description": "Source name plus Arad locality; not a verified routing destination."},
+      "locality": {"const": "Arad"},
+      "zone": {"type": "integer", "minimum": 0, "maximum": 3},
+      "capacity": {"type": "integer", "minimum": 0, "description": "Final capacity published for this source entry, not any subsidiary numbers inside the description."},
+      "latitude": {"type": ["number", "null"], "description": "An actual OSM coordinate vertex used as a representative STREET reference; not a surveyed parking bay or entrance."},
+      "longitude": {"type": ["number", "null"], "description": "Longitude in WGS84; same street-reference limitation as latitude."},
+      "geometry": {"type": ["object", "null"], "description": "OSM LineString/MultiLineString reference geometry. It may extend outside the Recons-listed segment; geometry_role is reference_street."},
+      "location_precision": {"enum": ["unknown", "street_reference_not_parking_extent"]},
+      "geocoding_method": {"type": ["string", "null"], "enum": [null, "osm_named_street_reference"]},
+      "geocode_source_url": {"type": ["string", "null"], "description": "URL of the first OSM way; full object IDs are in geocoding_reference_ids."},
+      "geocoding_reference_ids": {"type": "array", "items": {"type": "string"}},
+      "geocoding_matched_name": {"type": ["string", "null"]},
+      "geocoding_note": {"type": ["string", "null"]},
+      "geometry_role": {"enum": [null, "reference_street"]},
+      "source_url": {"type": "string", "format": "uri"},
+      "source_fragment": {"type": "string", "description": "Original zone accordion HTML ID."},
+      "source_item_number": {"type": "integer", "minimum": 1},
+      "source_text": {"type": "string", "description": "Original reassembled inventory text, retaining source numbering and capacity."},
+      "source_updated_at": {"type": ["string", "null"], "description": "Null because a common effective/update date is not supplied by the source."},
+      "retrieved_at": {"type": "string", "format": "date-time"},
+      "max_stay_minutes": {"type": ["integer", "null"], "description": "120 in zone 0 where supported by the source wording; null means no value established here."}
+    }
+  },
+  "x-tariff-notes": {
+    "category": "Payment/subscription eligibility category; hourly and annual products must not be mixed.",
+    "amount": "Numeric value only when unambiguous. Null for malformed reservation prices; source_value is authoritative transcription.",
+    "currency": "Derived from explicit cell currency; EUR cells override the erroneous lei column header.",
+    "vat_included": "false where source says + TVA; null means not established by this export.",
+    "duration_unit": "minute, day, month, quarter or year. A parking day is not converted into a guaranteed 24-hour duration."
+  }
+}

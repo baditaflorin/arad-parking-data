@@ -1,0 +1,1 @@
+[out:json][timeout:60];way["highway"]["name"](46.145,21.28,46.205,21.36);out geom;

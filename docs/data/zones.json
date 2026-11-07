@@ -1,0 +1,34 @@
+[
+  {
+    "zone": 0,
+    "color": "green",
+    "capacity_claimed_by_source": 690,
+    "capacity_sum_of_entries": 690,
+    "difference_entries_minus_claimed": 0,
+    "source_url": "https://www.reconsarad.ro/parcari-cu-plata"
+  },
+  {
+    "zone": 1,
+    "color": "red",
+    "capacity_claimed_by_source": 2392,
+    "capacity_sum_of_entries": 2371,
+    "difference_entries_minus_claimed": -21,
+    "source_url": "https://www.reconsarad.ro/parcari-cu-plata"
+  },
+  {
+    "zone": 2,
+    "color": "yellow",
+    "capacity_claimed_by_source": 3608,
+    "capacity_sum_of_entries": 3508,
+    "difference_entries_minus_claimed": -100,
+    "source_url": "https://www.reconsarad.ro/parcari-cu-plata"
+  },
+  {
+    "zone": 3,
+    "color": "blue",
+    "capacity_claimed_by_source": null,
+    "capacity_sum_of_entries": 187,
+    "difference_entries_minus_claimed": null,
+    "source_url": "https://www.reconsarad.ro/parcari-cu-plata"
+  }
+]

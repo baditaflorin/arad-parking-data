@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.reconsarad.ro/parcari-cu-plata",
+  "retrieved_at": "2026-11-07T14:38:54.215376Z",
+  "timezone": "Europe/Bucharest",
+  "source_schedule_text": [
+    "a) Luni – Vineri - între orele 08.00 – 17.00 - cu tarif, orele 17.00 – 08.00 - fără tarif",
+    "b) Sâmbătă - Duminică – fără tarif",
+    "c) Duminică - Piața Obor – 08.00-14.00 – cu tarif Piața Obor, strada Pădurii si str. Căpitan Ignat (între strada Pădurii și Penitenciarul vechi Arad )"
+  ],
+  "interpretation": "Read the quoted parking schedule, not the cashier opening hours. Default paid hours Monday–Friday 08:00–17:00; Sunday 08:00–14:00 has an explicit Piața Obor / Pădurii / Căpitan Ignat exception. Public-holiday exceptions are not assumed.",
+  "source_quoted_zone_0_limit": "Zona verde - Zona 0 – parcarea fiind permisă maxim 2 ore"
+}

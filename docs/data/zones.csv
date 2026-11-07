@@ -1,0 +1,5 @@
+zone,color,capacity_claimed_by_source,capacity_sum_of_entries,difference_entries_minus_claimed,source_url
+0,green,690,690,0,https://www.reconsarad.ro/parcari-cu-plata
+1,red,2392,2371,-21,https://www.reconsarad.ro/parcari-cu-plata
+2,yellow,3608,3508,-100,https://www.reconsarad.ro/parcari-cu-plata
+3,blue,,187,,https://www.reconsarad.ro/parcari-cu-plata

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "recons-9a5ce380b0a5f6a3",
+    "name": "B-dul Revoluţiei ( pe tronsonul Piața Gării – Bd. Revoluției – str. Grigore Alexandrescu – Tribunu Dobra – Bd Revoluției – Piața Academician Caius Iacob în direcția Piața Gării )",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-582265af985fca49",
+    "name": "B-dul Revoluţiei – zona medianei 1",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-b020053ff9c1ce75",
+    "name": "B-dul Revoluţiei – zona medianei 2",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-e5aef9d7e6a4ca1b",
+    "name": "B-dul General V. Milea",
+    "reason": "no_reviewed_name_match",
+    "lookup_name": "general v milea"
+  },
+  {
+    "id": "recons-83f798fa72081b9a",
+    "name": "Aradul Nou - tronsonul Calea Timisorii nr. 26-54, respectiv Calea Timişorii nr. 35-59",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-72304994a7a52053",
+    "name": "Stadion Francisc von Neuman (in spatele peluzei sud si tribuna 2)",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-9e1bcf930db32991",
+    "name": "P-ta Obor",
+    "reason": "no_reviewed_name_match",
+    "lookup_name": "obor"
+  },
+  {
+    "id": "recons-1ff9ec96ab551322",
+    "name": "Parcul Reconcilierii",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-5a230cff224371c6",
+    "name": "Parcarea amenajata în afara părţii carosabile din zona patinoarului de pe strada Cetăţii",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-87b28f4a3b58bb3a",
+    "name": "Parcările din zona şi incinta Ştrandului Neptun Arad",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-1da96f7c595e2516",
+    "name": "Parcul Regina Maria (intre strazile Sighisoara-Felix-Dreptatii-Beius)",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  },
+  {
+    "id": "recons-41330c668154aee7",
+    "name": "acces piața Obor - între str. Prof. Dr. Aurel Ardelean și piața Obor",
+    "reason": "specific_extent_not_established",
+    "lookup_name": null
+  }
+]

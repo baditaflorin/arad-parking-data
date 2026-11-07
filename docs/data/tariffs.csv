@@ -1,0 +1,83 @@
+id,category,zone,duration_label,duration_value,duration_unit,amount,currency,vat_included,sms_code,source_value,source_header,parse_warning,source_url,source_table_index,source_row_index,retrieved_at
+tariff-0-1-0,parking_meter_mediana,0,30,30,minute,2.0,RON,,,2.00,Cuantum tarif pentru Zona 0 (lei),,https://www.reconsarad.ro/parcari-cu-plata,0,1,2026-11-07T14:38:54.215376Z
+tariff-0-2-0,parking_meter_mediana,0,60,60,minute,3.0,RON,,,3.00,Cuantum tarif pentru Zona 0 (lei),,https://www.reconsarad.ro/parcari-cu-plata,0,2,2026-11-07T14:38:54.215376Z
+tariff-0-3-0,parking_meter_mediana,0,120,120,minute,6.0,RON,,,6.00,Cuantum tarif pentru Zona 0 (lei),,https://www.reconsarad.ro/parcari-cu-plata,0,3,2026-11-07T14:38:54.215376Z
+tariff-1-1-0,sms,0,30,30,minute,0.4,EUR,False,104,"0,40 EUR + TVA (cod 104)",Tarife ZONA 0 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,1,2026-11-07T14:38:54.215376Z
+tariff-1-1-1,sms,1,30,30,minute,0.3,EUR,False,305,"0,30 EUR + TVA (cod 305)",Tarife ZONA 1 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,1,2026-11-07T14:38:54.215376Z
+tariff-1-2-0,sms,0,60,60,minute,0.6,EUR,False,105,"0,60 EUR + TVA (cod 105)",Tarife ZONA 0 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,2,2026-11-07T14:38:54.215376Z
+tariff-1-2-1,sms,1,60,60,minute,0.5,EUR,False,101,"0,50 EUR + TVA (cod 101)",Tarife ZONA 1 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,2,2026-11-07T14:38:54.215376Z
+tariff-1-2-2,sms,2,60,60,minute,0.4,EUR,False,201,"0,40 EUR + TVA (cod 201)",Tarife ZONA 2 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,2,2026-11-07T14:38:54.215376Z
+tariff-1-2-3,sms,3,60,60,minute,0.2,EUR,False,311,"0,20 EUR + TVA (cod 311)",Tarife ZONA 3 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,2,2026-11-07T14:38:54.215376Z
+tariff-1-3-0,sms,0,120,120,minute,1.2,EUR,False,106,"1,20 EUR + TVA (cod 106)",Tarife ZONA 0 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,3,2026-11-07T14:38:54.215376Z
+tariff-1-3-1,sms,1,120,120,minute,0.8,EUR,False,102,"0,80 EUR + TVA (cod 102)",Tarife ZONA 1 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,3,2026-11-07T14:38:54.215376Z
+tariff-1-3-2,sms,2,120,120,minute,0.65,EUR,False,202,"0,65 EUR + TVA (cod 202)",Tarife ZONA 2 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,3,2026-11-07T14:38:54.215376Z
+tariff-1-3-3,sms,3,120,120,minute,0.4,EUR,False,312,"0,40 EUR + TVA (cod 312)",Tarife ZONA 3 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,3,2026-11-07T14:38:54.215376Z
+tariff-1-4-1,sms,1,O (1) zi,1,day,4.0,EUR,False,103,"4,00 EUR + TVA (cod 103)",Tarife ZONA 1 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,4,2026-11-07T14:38:54.215376Z
+tariff-1-4-2,sms,2,O (1) zi,1,day,3.0,EUR,False,203,"3,00 EUR + TVA (cod 203)",Tarife ZONA 2 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,4,2026-11-07T14:38:54.215376Z
+tariff-1-4-3,sms,3,O (1) zi,1,day,1.2,EUR,False,313,"1,20 EUR + TVA (cod 313)",Tarife ZONA 3 (lei),currency_from_cell_overrides_header,https://www.reconsarad.ro/parcari-cu-plata,1,4,2026-11-07T14:38:54.215376Z
+tariff-2-1-1,reservation_annual,1,1 An,1,year,,RON,,,"21,900,00",Rezervare ZONA A (lei),ambiguous_price_format,https://www.reconsarad.ro/parcari-cu-plata,2,1,2026-11-07T14:38:54.215376Z
+tariff-2-1-2,reservation_annual,2,1 An,1,year,,RON,,,"17,520,00",Rezervare ZONA B (lei),ambiguous_price_format,https://www.reconsarad.ro/parcari-cu-plata,2,1,2026-11-07T14:38:54.215376Z
+tariff-2-1-3,reservation_annual,3,1 An,1,year,,RON,,,"13,140,00",Rezervare ZONA C (lei),ambiguous_price_format,https://www.reconsarad.ro/parcari-cu-plata,2,1,2026-11-07T14:38:54.215376Z
+tariff-3-1-1,resident_up_to_two_cars_one_street,1,1 Lună,1,month,22.0,RON,,,"22,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,1,2026-11-07T14:38:54.215376Z
+tariff-3-1-2,resident_up_to_two_cars_one_street,2,1 Lună,1,month,18.0,RON,,,"18,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,1,2026-11-07T14:38:54.215376Z
+tariff-3-1-3,resident_up_to_two_cars_one_street,3,1 Lună,1,month,16.0,RON,,,"16,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,1,2026-11-07T14:38:54.215376Z
+tariff-3-2-1,resident_up_to_two_cars_one_street,1,1 Trimestru,1,quarter,60.0,RON,,,"60,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,2,2026-11-07T14:38:54.215376Z
+tariff-3-2-2,resident_up_to_two_cars_one_street,2,1 Trimestru,1,quarter,50.0,RON,,,"50,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,2,2026-11-07T14:38:54.215376Z
+tariff-3-2-3,resident_up_to_two_cars_one_street,3,1 Trimestru,1,quarter,43.0,RON,,,"43,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,2,2026-11-07T14:38:54.215376Z
+tariff-3-3-1,resident_up_to_two_cars_one_street,1,1 An,1,year,190.0,RON,,,"190,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,3,2026-11-07T14:38:54.215376Z
+tariff-3-3-2,resident_up_to_two_cars_one_street,2,1 An,1,year,160.0,RON,,,"160,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,3,2026-11-07T14:38:54.215376Z
+tariff-3-3-3,resident_up_to_two_cars_one_street,3,1 An,1,year,124.0,RON,,,"124,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,3,3,2026-11-07T14:38:54.215376Z
+tariff-4-1-1,resident_more_than_two_cars_one_street,1,1 Lună,1,month,100.0,RON,,,"100,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,1,2026-11-07T14:38:54.215376Z
+tariff-4-1-2,resident_more_than_two_cars_one_street,2,1 Lună,1,month,75.0,RON,,,"75,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,1,2026-11-07T14:38:54.215376Z
+tariff-4-1-3,resident_more_than_two_cars_one_street,3,1 Lună,1,month,50.0,RON,,,"50,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,1,2026-11-07T14:38:54.215376Z
+tariff-4-2-1,resident_more_than_two_cars_one_street,1,1 Trimestru,1,quarter,250.0,RON,,,"250,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,2,2026-11-07T14:38:54.215376Z
+tariff-4-2-2,resident_more_than_two_cars_one_street,2,1 Trimestru,1,quarter,200.0,RON,,,"200,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,2,2026-11-07T14:38:54.215376Z
+tariff-4-2-3,resident_more_than_two_cars_one_street,3,1 Trimestru,1,quarter,120.0,RON,,,"120,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,2,2026-11-07T14:38:54.215376Z
+tariff-4-3-1,resident_more_than_two_cars_one_street,1,1 An,1,year,800.0,RON,,,"800,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,3,2026-11-07T14:38:54.215376Z
+tariff-4-3-2,resident_more_than_two_cars_one_street,2,1 An,1,year,550.0,RON,,,"550,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,3,2026-11-07T14:38:54.215376Z
+tariff-4-3-3,resident_more_than_two_cars_one_street,3,1 An,1,year,350.0,RON,,,"350,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,4,3,2026-11-07T14:38:54.215376Z
+tariff-5-1-1,nonresident_one_street,1,1 Lună,1,month,250.0,RON,,,"250,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,1,2026-11-07T14:38:54.215376Z
+tariff-5-1-2,nonresident_one_street,2,1 Lună,1,month,200.0,RON,,,"200,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,1,2026-11-07T14:38:54.215376Z
+tariff-5-1-3,nonresident_one_street,3,1 Lună,1,month,100.0,RON,,,"100,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,1,2026-11-07T14:38:54.215376Z
+tariff-5-2-1,nonresident_one_street,1,1 Trimestru,1,quarter,675.0,RON,,,"675,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,2,2026-11-07T14:38:54.215376Z
+tariff-5-2-2,nonresident_one_street,2,1 Trimestru,1,quarter,540.0,RON,,,"540,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,2,2026-11-07T14:38:54.215376Z
+tariff-5-2-3,nonresident_one_street,3,1 Trimestru,1,quarter,270.0,RON,,,"270,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,2,2026-11-07T14:38:54.215376Z
+tariff-5-3-1,nonresident_one_street,1,1 An,1,year,2160.0,RON,,,"2.160,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,3,2026-11-07T14:38:54.215376Z
+tariff-5-3-2,nonresident_one_street,2,1 An,1,year,1728.0,RON,,,"1.728,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,3,2026-11-07T14:38:54.215376Z
+tariff-5-3-3,nonresident_one_street,3,1 An,1,year,860.0,RON,,,"860,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,5,3,2026-11-07T14:38:54.215376Z
+tariff-6-1-1,all_streets,1,1 Lună,1,month,600.0,RON,,,"600,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,1,2026-11-07T14:38:54.215376Z
+tariff-6-1-2,all_streets,2,1 Lună,1,month,450.0,RON,,,"450,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,1,2026-11-07T14:38:54.215376Z
+tariff-6-1-3,all_streets,3,1 Lună,1,month,300.0,RON,,,"300,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,1,2026-11-07T14:38:54.215376Z
+tariff-6-2-1,all_streets,1,1 Trimestru,1,quarter,1620.0,RON,,,"1.620,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,2,2026-11-07T14:38:54.215376Z
+tariff-6-2-2,all_streets,2,1 Trimestru,1,quarter,1215.0,RON,,,"1.215,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,2,2026-11-07T14:38:54.215376Z
+tariff-6-2-3,all_streets,3,1 Trimestru,1,quarter,800.0,RON,,,"800,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,2,2026-11-07T14:38:54.215376Z
+tariff-6-3-1,all_streets,1,1 An,1,year,5184.0,RON,,,"5.184,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,3,2026-11-07T14:38:54.215376Z
+tariff-6-3-2,all_streets,2,1 An,1,year,3888.0,RON,,,"3.888,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,3,2026-11-07T14:38:54.215376Z
+tariff-6-3-3,all_streets,3,1 An,1,year,2500.0,RON,,,"2.500,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,6,3,2026-11-07T14:38:54.215376Z
+tariff-7-1-1,family_doctor_all_streets,1,1 Lună,1,month,80.0,RON,,,"80,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,1,2026-11-07T14:38:54.215376Z
+tariff-7-1-2,family_doctor_all_streets,2,1 Lună,1,month,60.0,RON,,,"60,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,1,2026-11-07T14:38:54.215376Z
+tariff-7-1-3,family_doctor_all_streets,3,1 Lună,1,month,50.0,RON,,,"50,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,1,2026-11-07T14:38:54.215376Z
+tariff-7-2-1,family_doctor_all_streets,1,1 Trimestru,1,quarter,216.0,RON,,,"216,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,2,2026-11-07T14:38:54.215376Z
+tariff-7-2-2,family_doctor_all_streets,2,1 Trimestru,1,quarter,162.0,RON,,,"162,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,2,2026-11-07T14:38:54.215376Z
+tariff-7-2-3,family_doctor_all_streets,3,1 Trimestru,1,quarter,140.0,RON,,,"140,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,2,2026-11-07T14:38:54.215376Z
+tariff-7-3-1,family_doctor_all_streets,1,1 An,1,year,691.2,RON,,,"691,20",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,3,2026-11-07T14:38:54.215376Z
+tariff-7-3-2,family_doctor_all_streets,2,1 An,1,year,518.4,RON,,,"518,40",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,3,2026-11-07T14:38:54.215376Z
+tariff-7-3-3,family_doctor_all_streets,3,1 An,1,year,450.0,RON,,,"450,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,7,3,2026-11-07T14:38:54.215376Z
+tariff-8-1-1,public_institution,1,1 Lună,1,month,150.0,RON,,,"150,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,1,2026-11-07T14:38:54.215376Z
+tariff-8-1-2,public_institution,2,1 Lună,1,month,120.0,RON,,,"120,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,1,2026-11-07T14:38:54.215376Z
+tariff-8-1-3,public_institution,3,1 Lună,1,month,90.0,RON,,,"90,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,1,2026-11-07T14:38:54.215376Z
+tariff-8-2-1,public_institution,1,1 Trimestru,1,quarter,400.0,RON,,,"400,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,2,2026-11-07T14:38:54.215376Z
+tariff-8-2-2,public_institution,2,1 Trimestru,1,quarter,300.0,RON,,,"300,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,2,2026-11-07T14:38:54.215376Z
+tariff-8-2-3,public_institution,3,1 Trimestru,1,quarter,220.0,RON,,,"220,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,2,2026-11-07T14:38:54.215376Z
+tariff-8-3-1,public_institution,1,1 An,1,year,1200.0,RON,,,"1.200,00",Abonament ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,3,2026-11-07T14:38:54.215376Z
+tariff-8-3-2,public_institution,2,1 An,1,year,900.0,RON,,,"900,00",Abonament ZONA 2 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,3,2026-11-07T14:38:54.215376Z
+tariff-8-3-3,public_institution,3,1 An,1,year,650.0,RON,,,"650,00",Abonament ZONA 3 (lei),,https://www.reconsarad.ro/parcari-cu-plata,8,3,2026-11-07T14:38:54.215376Z
+tariff-9-1-1,public_interest_utility,1,1 Lună,1,month,200.0,RON,,,"200,00",Abonament pentru ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,9,1,2026-11-07T14:38:54.215376Z
+tariff-9-1-2,public_interest_utility,2,1 Lună,1,month,150.0,RON,,,"150,00",Abonament pentru ZONA 2(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,1,2026-11-07T14:38:54.215376Z
+tariff-9-1-3,public_interest_utility,3,1 Lună,1,month,100.0,RON,,,"100,00",Abonament pentru ZONA 3(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,1,2026-11-07T14:38:54.215376Z
+tariff-9-2-1,public_interest_utility,1,1 Trimestru,1,quarter,400.0,RON,,,"400,00",Abonament pentru ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,9,2,2026-11-07T14:38:54.215376Z
+tariff-9-2-2,public_interest_utility,2,1 Trimestru,1,quarter,300.0,RON,,,"300,00",Abonament pentru ZONA 2(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,2,2026-11-07T14:38:54.215376Z
+tariff-9-2-3,public_interest_utility,3,1 Trimestru,1,quarter,200.0,RON,,,"200,00",Abonament pentru ZONA 3(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,2,2026-11-07T14:38:54.215376Z
+tariff-9-3-1,public_interest_utility,1,1 An,1,year,1200.0,RON,,,"1200,00",Abonament pentru ZONA 1 (lei),,https://www.reconsarad.ro/parcari-cu-plata,9,3,2026-11-07T14:38:54.215376Z
+tariff-9-3-2,public_interest_utility,2,1 An,1,year,900.0,RON,,,"900,00",Abonament pentru ZONA 2(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,3,2026-11-07T14:38:54.215376Z
+tariff-9-3-3,public_interest_utility,3,1 An,1,year,600.0,RON,,,"600,00",Abonament pentru ZONA 3(lei),,https://www.reconsarad.ro/parcari-cu-plata,9,3,2026-11-07T14:38:54.215376Z

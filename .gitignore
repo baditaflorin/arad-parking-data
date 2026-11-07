@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Local caches and temporary/raw private responses
+.cache/
+__pycache__/
+*.pyc
+.venv/
+tmp/
+.DS_Store
+.openai/
+node_modules/

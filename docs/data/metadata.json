@@ -1,0 +1,42 @@
+{
+  "dataset": "arad-parking-data",
+  "title": "Parcări cu plată Arad — inventarul Recons",
+  "generated_at": "2026-11-07T14:45:50.341791Z",
+  "source_retrieved_at": "2026-11-07T14:38:54.215376Z",
+  "record_count": 79,
+  "geocoded_count": 67,
+  "status": "real_source_extracted_with_quality_warnings",
+  "source_urls": [
+    "https://www.reconsarad.ro/parcari-cu-plata"
+  ],
+  "license": "Upstream Recons data: no explicit open-data reuse licence identified. Code is MIT. Any OpenStreetMap reference geometries are ODbL-1.0; see LICENSE-DATA.md.",
+  "record_granularity": "A source-listed street, street segment, square or parking area; never an individual parking bay.",
+  "claimed_capacity_total": 6877,
+  "calculated_capacity_total": 6756,
+  "tariff_count": 82,
+  "tariffs_with_ambiguous_amount": 3,
+  "spatial_coverage": {
+    "known_geometry_count": 67,
+    "unknown_geometry_count": 12,
+    "reference_geometry_only": true
+  },
+  "quality_notes": [
+    "Zone and grand totals in the source may disagree with the sum of individual entries; both are retained in zones.json.",
+    "Two separate source entries named Corneliu Coposu are retained as separate records; they must not be collapsed merely by street name.",
+    "SMS cells explicitly say EUR + TVA although the table headers say lei; currency is derived from each cell.",
+    "Reservation prices such as 21,900,00 are malformed/ambiguous; normalized amount is null and the original string is retained.",
+    "A source-listed area may include multiple segments; geometry, when available, is an explicitly labelled OSM reference and not the parking boundary.",
+    "The embedded source-page map locates the operator office and is not a parking inventory; it is intentionally excluded.",
+    "Source page does not establish a source-wide effective date; retrieved_at is an acquisition timestamp, not an effective date."
+  ],
+  "files": [
+    "records.csv",
+    "records.json",
+    "records.geojson",
+    "tariffs.csv",
+    "tariffs.json",
+    "zones.csv",
+    "zones.json",
+    "rules.json"
+  ]
+}
