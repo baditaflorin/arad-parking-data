@@ -1,5 +1,9 @@
 # Parcări cu plată în Arad — date Recons
 
+## Portal public
+
+[Site, hartă și descărcări CSV / JSON / GeoJSON](https://baditaflorin.github.io/arad-parking-data/)
+
 Date prelucrate, gata de descărcat, plus codul care le reconstruiește din sursele publice.
 Inventarul descrie **străzi, tronsoane, piețe și zone de parcare**, nu locuri individuale.
 
